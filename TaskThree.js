@@ -3,7 +3,7 @@ import { Button, Image, View, Platform } from "react-native";
 import * as ImagePicker from "expo-image-picker";
 import axios from "axios";
 
-const TaskTwo = () => {
+const TaskThree = () => {
   const [image, setImage] = useState(null);
 
   const selectImage = async () => {
@@ -66,4 +66,4 @@ const TaskTwo = () => {
   );
 };
 
-export default TaskTwo;
+export default TaskThree;
